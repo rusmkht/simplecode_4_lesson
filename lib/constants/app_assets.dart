@@ -8,6 +8,7 @@ class _Images {
   const _Images();
   final String noAvatar = 'assets/images/bitmap/no_avatar.png';
 
+
 }
 
 class _Svg {
