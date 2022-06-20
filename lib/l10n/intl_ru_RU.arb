@@ -3,5 +3,11 @@
     "language": "Язык",
     "mainScreen": "Главный экран",
     "russian" : "Русский",
-    "english" : "Английский"
+    "english" : "Английский",
+    "findPerson" : "Найти персонажа",
+    "dead" : "Умер",
+    "alive" : "Живой",
+    "unknown" : "Неизвестно",
+    "personsTotal" : "Всего персонажей",
+    "goToPersonsList" : "Перейти на список персонажей"
 }

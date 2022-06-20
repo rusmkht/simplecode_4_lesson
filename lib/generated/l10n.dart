@@ -99,6 +99,66 @@ class S {
       args: [],
     );
   }
+
+  /// `Search character`
+  String get findPerson {
+    return Intl.message(
+      'Search character',
+      name: 'findPerson',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dead`
+  String get dead {
+    return Intl.message(
+      'Dead',
+      name: 'dead',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Alive`
+  String get alive {
+    return Intl.message(
+      'Alive',
+      name: 'alive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Unknown`
+  String get unknown {
+    return Intl.message(
+      'Unknown',
+      name: 'unknown',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Total persons`
+  String get personsTotal {
+    return Intl.message(
+      'Total persons',
+      name: 'personsTotal',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Go to Persons List`
+  String get goToPersonsList {
+    return Intl.message(
+      'Go to Persons List',
+      name: 'goToPersonsList',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -22,10 +22,18 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "alive": MessageLookupByLibrary.simpleMessage("Живой"),
         "counter": MessageLookupByLibrary.simpleMessage("Счетчик"),
+        "dead": MessageLookupByLibrary.simpleMessage("Умер"),
         "english": MessageLookupByLibrary.simpleMessage("Английский"),
+        "findPerson": MessageLookupByLibrary.simpleMessage("Найти персонажа"),
+        "goToPersonsList": MessageLookupByLibrary.simpleMessage(
+            "Перейти на список персонажей"),
         "language": MessageLookupByLibrary.simpleMessage("Язык"),
         "mainScreen": MessageLookupByLibrary.simpleMessage("Главный экран"),
-        "russian": MessageLookupByLibrary.simpleMessage("Русский")
+        "personsTotal":
+            MessageLookupByLibrary.simpleMessage("Всего персонажей"),
+        "russian": MessageLookupByLibrary.simpleMessage("Русский"),
+        "unknown": MessageLookupByLibrary.simpleMessage("Неизвестно")
       };
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_simplecode_4_lesson/ui/persons_list_screen.dart';
 import 'package:intl/intl.dart';
 
 import 'generated/l10n.dart';
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate
       ],
       supportedLocales: S.delegate.supportedLocales,
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const PersonsList()
+      //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -111,6 +113,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     _decrementCounter();
                   },
                   child: Text("-")),
+              ElevatedButton(
+                  onPressed: () {
+                    //Navigator.of(context).push(route)
+                  },
+                  child: Text(S.of(context).goToPersonsList)),
               ElevatedButton(
                   onPressed: () {
                     _incrementCounter();

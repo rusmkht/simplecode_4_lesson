@@ -3,5 +3,11 @@
     "language": "Language",
     "mainScreen": "Main Screen",
     "russian" : "Russian",
-    "english" : "English"
+    "english" : "English",
+    "findPerson" : "Search character",
+    "dead" : "Dead",
+    "alive" : "Alive",
+    "unknown" : "Unknown",
+    "personsTotal" : "Total persons",
+    "goToPersonsList" : "Go to Persons List"
 }
